@@ -1,6 +1,6 @@
 body{
-    background-color: lime;
-}
+    background-color: aliceblue;
+} 
 
 #container{
     width: 900px;
@@ -13,4 +13,30 @@ body{
 
 #myInteraction{
     padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#mapImage {
+    margin-top: 20px;
+}
+
+nav button {
+    background-color: green;
+    color: antiquewhite;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#knopNoord, #knopZuid {
+    display: block;
+    width: 300px;
+}
+
+#knopWest, #knopOost{
+    display: inline-block;
+    width: 150px;
 }
